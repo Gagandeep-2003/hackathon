@@ -1,0 +1,106 @@
+.product-details {
+  margin-top: 100px !important;
+}
+
+.product-details-info {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.product-details-info h6 {
+  margin-bottom: 20px !important;
+}
+
+.similar-products .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+}
+
+.similar-products .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.similar-products .card-price {
+  color: green;
+  font-weight: bold;
+}
+.similar-products button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.similar-products .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.similar-products .card img:hover {
+  transform: scale(0.9);
+}
+
+.similar-products .card-img-top {
+  height: 300px !important;
+}
+
+/* ProductDetailsStyles.css */
+
+/* General styling for comment input field */
+.add-comment input,
+.add-comment textarea {
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  transition: all 0.3s ease; /* Smooth transition for effects */
+}
+
+/* Add box shadow for 3D effect */
+.add-comment input {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-comment textarea {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Change background color */
+.add-comment input {
+  background-color: #f9f9f9;
+}
+
+.add-comment textarea {
+  background-color: #f9f9f9;
+}
+
+/* Add a focus effect */
+.add-comment input:focus,
+.add-comment textarea:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a glow effect */
+}
+
+/* Style for the submit button */
+.add-comment button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-comment button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}
